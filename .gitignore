@@ -1,0 +1,42 @@
+
+# ===============================
+# Environment variables and secrets
+# ===============================
+.env
+.env.*
+!.env.example
+!.backend/.env.example
+backend/.env
+frontend/cafe-okali/.env
+frontend/cafe-okali/.env.local
+
+# ===============================
+# Python / Django
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+backend/db.sqlite3
+db.sqlite3
+media/
+
+# ===============================
+# Node / React / Vite
+# ===============================
+node_modules/
+frontend/cafe-okali/node_modules/
+frontend/cafe-okali/dist/
+dist/
+
+# ===============================
+# OS / Editor
+# ===============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
